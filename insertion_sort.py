@@ -8,7 +8,7 @@ def main():
     myList = [1, 2, 1, 0]
     print("my list: " + str(myList))
     # sort list 
-    myList = insertionSort(myList)
+    insertionSort(myList)
     print("my list sorted: " + str(myList))
 
 def insertionSort(list):
@@ -28,6 +28,6 @@ def insertionSort(list):
             j = j - 1   
             #print("j is " + str(j))   
             #print("list[j] after: " + str(list[j]))      
-    return list 
+    #return list 
 
 main()
