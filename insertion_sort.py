@@ -23,11 +23,8 @@ def insertionSort(list):
         '''
         j = i - 1
         while ((list[j+1] < list[j]) and (j >= 0)):            
-            list[j+1], list[j] = list[j], list[j+1]
-            #print("list[j] before: " + str(list[j]))            
+            list[j+1], list[j] = list[j], list[j+1]                        
             j = j - 1   
-            #print("j is " + str(j))   
-            #print("list[j] after: " + str(list[j]))      
-    #return list 
+
 
 main()
